@@ -24,9 +24,9 @@ You need to upload the files to create the inverted index which can be done by U
 
 # Additional features include :
 
-Searching a word and returning list of files containing that word in JSON format  url : https://tapsearch-pro.herokuapp.com/search  #POST method
+Searching a word and returning list of files containing that word in JSON format  url : https://tapsearch-pro.herokuapp.com/search  #POST method It is a Case Sensitive search lorem and Lorem will be considered different. In case of word not found an internal server error will be returned.
 
-Searching a word and returning list of unique paragraph ids containing that word in JSON format   url : https://tapsearch-pro.herokuapp.com/searchpara  #POST method
+Searching a word and returning list of unique paragraph ids containing that word in JSON format   url : https://tapsearch-pro.herokuapp.com/searchpara  #POST method It is a Case Sensitive search lorem and Lorem will be considered different. In case of word not found an internal server error will be returned.
 
 Clear both the index files url : https://tapsearch-pro.herokuapp.com/clear  
 
