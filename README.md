@@ -8,13 +8,13 @@ git clone
 cd "cloned folder"
 pip install -r requirements.txt
 
-To run locally :
+# To run locally :
 
 flask run 
 or 
 gunicorn app:app --timeout 10    #for a production server, preferred because Flask doesn't seem to handle alot of requests together very well.
 
-There are 2 main features i have implemented here which are:
+# There are 2 main features i have implemented here which are:
 
 Inverted Index for multiple files  URL : https://tapsearch-pro.herokuapp.com/index     
 
@@ -22,7 +22,7 @@ Inverted Index for multiple paragraphs from a file URL : https://tapsearch-pro.h
 
 You need to upload the files to create the inverted index which can be done by URL :  https://tapsearch-pro.herokuapp.com/Upload  #POST method
 
-Additional features include :
+# Additional features include :
 
 Searching a word and returning list of files containing that word in JSON format  url : https://tapsearch-pro.herokuapp.com/search  #POST method
 
